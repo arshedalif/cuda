@@ -1,0 +1,204 @@
+@media (max-width: 575.98px) { 
+    /* Default Styles */
+    body {
+        overflow-x: hidden;
+    }
+
+    .button {
+        display: block;
+        font-size: 14px;
+        padding: 15px 40px;
+        text-align: center;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    .section-padding {
+        padding: 80px 0px;
+    }
+
+    /* header styles */
+    #header .main-nav .menu {
+        display: none;
+    }
+
+    #header .main-nav .logo img {
+        width: 90px;
+    }
+
+    .mobile-menu {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    #header .hero {
+        display: block;
+        padding-top: 10px;
+    }
+
+    #header .hero .hero-text {
+        font-size: 32px;
+    }
+
+    /* service styles */
+    #service-section .section-heading h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+    
+    #service-section .section-heading h2::before {
+        width: 70px;
+    }
+    
+    #service-section .section-heading p {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 100%;
+    }
+
+    #service-section .services {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+    }
+    
+    
+    #service-section .services .service-card img {
+        margin-bottom: 25px;
+    }
+    
+    #service-section .services .service-card h3 {
+        font-size: 24px;
+    }
+
+    /* team section styles */
+    #team-section .section-heading h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+    
+    #team-section .section-heading h2::before {
+        width: 70px;
+    }
+    
+    #team-section .section-heading p {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 100%;
+    }
+
+    #team-section .team {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+    }
+
+    /* skills section styles */
+    #skill-section .section-heading h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+    
+    #skill-section .section-heading h2::before {
+        width: 70px;
+    }
+    
+    #skill-section .section-heading p {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 100%;
+    }
+
+    #skill-section .skills {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto auto;
+    }
+
+    #skill-section .skills .skill-card h3 {
+        font-size: 20px;
+    }
+
+    /* testimonial section styles */
+    #testimonial-section .section-heading h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+    
+    #testimonial-section .section-heading h2::before {
+        width: 70px;
+    }
+    
+    #testimonial-section .section-heading p {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 100%;
+    }
+
+    .testimonial {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+        text-align: center;
+    }
+    
+    .testimonial .testimonial-card {
+        display: block;
+    }
+    
+    .testimonial .testimonial-card .client-image {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    
+    .testimonial .testimonial-card .client-comment p.comment {
+        margin-bottom: 25px;
+    }
+
+    /* footer section styles */
+    #footer .section-heading h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+    
+    #footer .section-heading h2::before {
+        width: 70px;
+    }
+    
+    #footer .section-heading p {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 100%;
+    }
+
+    .contact-form form .inputs {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 25px;
+    }
+
+    .contact-form form .submit-button {
+        width: 100%;
+    }
+
+    .footer-bottom .social-links {
+        display: grid;
+        grid-row-gap: 15px;
+        grid-column-gap: 30px;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .footer-bottom .social-links li {
+        margin-right: 0;
+    }
+
+    .footer-bottom .social-links li a {
+        font-size: 17px;
+    }
+}
